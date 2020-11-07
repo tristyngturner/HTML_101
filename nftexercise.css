@@ -1,0 +1,40 @@
+.header {
+    border: solid;
+    border-color: white;
+    background-color: rgb(196, 230, 250);
+    margin: 10px;
+    padding: 10px;
+}
+
+.header img {
+    width: 10%;
+    height: auto;
+    display: inline-block;    
+}
+body {
+    background-color:rgb(196, 230, 250);
+}
+
+div {
+    overflow: auto;
+}
+
+.emailBody {
+    border: solid;
+    border-color: white;
+    background-color: rgb(196, 230, 250);
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .header:hover {
+            background-color: black;
+        }
+    }
