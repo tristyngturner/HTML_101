@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+    margin: 20px;
+}
+
+.navBar {
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0; 
+    /* display: block; */
+}
+
+.navBar a {
+    color: white;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.navBar a.active {
+    padding: 20px;
+    border: solid;
+    border-color: green;
+    background-color: green;
+}
+
+.navBar a.news {
+    padding: 0 20px;
+    background-color: black;
+}
+
+.navBar a.contact {
+    padding: 0 20px;
+    background-color: black;
+}
+
+.navBar a.about {
+    padding: 0 20px;
+    background-color: black;
+    float: right;
+}

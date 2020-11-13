@@ -1,0 +1,27 @@
+.flexContainer {
+    display: flex;
+    justify-content: space-between center;
+}
+
+/* .holy-grail {
+    border: 20px solid;
+} */
+.header {
+    padding: 20px;
+    border: 20px solid;
+}
+
+.listContainer {
+    padding: 20px;
+    border: 20px solid;
+}
+
+.contentContainer {
+    padding: 20px;
+    border: 20px solid;
+}
+
+.adContainer {
+    padding: 20px;
+    border: 20px solid;
+}
